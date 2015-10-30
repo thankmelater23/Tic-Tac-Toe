@@ -68,7 +68,8 @@
   if (![self image:button.currentBackgroundImage isEqualTo:player1->image] && ![self image:button.currentBackgroundImage isEqualTo:player2->image])
   {
     Player *player = [self turn];
-      [button setBackgroundImage:player->image forState:UIControlStateNormal];
+      button.imageView.image = player->image;
+//      [button setBackgroundImage:player->image forState:UIControlStateNormal];
 //    [button setImage:player->image forState:UIControlStateNormal];
 
     if ([button isEqual: button0])
