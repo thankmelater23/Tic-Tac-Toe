@@ -200,6 +200,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "HnG Studios";
+				TargetAttributes = {
+					E6C9460816821CD9002AF126 = {
+						DevelopmentTeam = ZJWNZ643CG;
+					};
+				};
 			};
 			buildConfigurationList = E6C9460316821CD9002AF126 /* Build configuration list for PBXProject "tic tac toe" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -342,6 +347,7 @@
 		E6C9463116821CDA002AF126 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tic tac toe/tic tac toe-Prefix.pch";
 				INFOPLIST_FILE = "tic tac toe/tic tac toe-Info.plist";
@@ -353,6 +359,7 @@
 		E6C9463216821CDA002AF126 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tic tac toe/tic tac toe-Prefix.pch";
 				INFOPLIST_FILE = "tic tac toe/tic tac toe-Info.plist";
